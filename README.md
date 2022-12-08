@@ -73,7 +73,10 @@ We then add the Goldstein Phase Filtering which is a technique that increases th
 ___
 
 ## 10) Snaphu Unwrapping ##
-We now perform three steps. 
+We now perform three steps to process the data through the two-dimensional phase unwrapping algorithm. 
+In order to be able to relate the interferometric phase to the topographic height, the phase must first be "unwrapped". 
+For more information on this topic see this [document](https://asf.alaska.edu/wp-content/uploads/2019/02/insar_phase_unwrapping_v8.1.pdf)
+
 1) Snaphu Export as seen below with row and column overlap set to 200 and and statistical cost mode to TOPO.
 
 ![](images/snaphu_1_1.PNG) ![](images/snaphu_1_2.PNG)
