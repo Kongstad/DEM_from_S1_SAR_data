@@ -90,7 +90,7 @@ For more information on this topic see this [document](https://asf.alaska.edu/wp
 ![](images/snaphu_3_1.PNG) ![](images/snaphu_3_2.PNG)
 ___
 
-## 11) Phase to Elevation ##
+## 11) Phase to Elevation DEM generation ##
 Using the phase to elevation with the below settings produce an elevation map but with bad edges. (Example on the 3rd image right side).
 By using the raster -> subset, we cut out the sides of the image or rather, choose a smaller subset of the data.
 
