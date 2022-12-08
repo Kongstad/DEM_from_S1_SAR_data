@@ -47,7 +47,19 @@ Using the back geocoding command we select the two images and apply the standard
 
 ![](images/coreg1.PNG)  ![](images/coreg2.PNG) 
 
+## 6) S-1 Enhanced Spectral Diversity ##
+Adding the Enhanced Spectral Diversity function. Processing parameters are left as standard.
+![](images/esd1.PNG) 
+___
+
+## 7) Interferogram formation ##
+The first phase image is now produced and here is a snapshot of it.
+Note the demarcation lines still present
+Coherence image has also been generated and is seen on the right.
+![](images/inf1.PNG) ![](images/coh1.PNG) 
+
 
 ___
+
 ...) Finished DEM product exported as KMZ file and displayed in Google Earth Pro on top of a Satellite image
 ![alt text](images/DEMinGE.PNG)
