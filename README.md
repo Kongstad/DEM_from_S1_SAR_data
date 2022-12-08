@@ -6,7 +6,7 @@ Obtaining DEM's from Sentinel-1 SAR data through SNAP toolbox. This repository d
 
 ## 1) Find suitable data ##
 Find data via Copernicus Sci Hub. I have chosen a section over the eastern mountain range in the US state of Washington.
-The tile ID I have used is: S1A_IW_SLC__1SDV_20220724T015425_20220724T015452_044236_05479C_68C5
+The data I have started with is named: S1A_IW_SLC__1SDV_20220724T015425_20220724T015452_044236_05479C_68C5
   * Start Time: 07/24/22, 01:54:25Z
   * Stop Time: 07/24/22, 01:54:52Z
   * Flight Direction: ASCENDING
@@ -16,7 +16,7 @@ The tile ID I have used is: S1A_IW_SLC__1SDV_20220724T015425_20220724T015452_044
 ___
 
 ## 2) Locate Baseline ##
-Using the ASF Data Search Vertex to locate the baseline. Baseline uses information from two synthetic aperture radar (SAR) images of the same target area acquired at different times (temporal baseline) and from slightly different satellite orbit positions (perpendicular baseline).
+Using the [ASF Data Search Vertex](https://search.asf.alaska.edu/#/) to locate the baseline. Baseline uses information from two synthetic aperture radar (SAR) images of the same target area acquired at different times (temporal baseline) and from slightly different satellite orbit positions (perpendicular baseline).
 The tile I have used is: S1A_IW_SLC__1SDV_20220817T015427_20220817T015454_044586_055259_036A
   * Perpendicular: -8 meters
   * Temporal: 24 days
