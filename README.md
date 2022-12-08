@@ -85,6 +85,14 @@ We now perform three steps.
 3) Snaphu Import - Using the unwrapped data we import to finalize the Snaphu processing
 
 ![](images/snaphu_3_1.PNG) ![](images/snaphu_3_2.PNG)
+
+## 11) Phase to Elevation ##
+Using the phase to elevation with the below settings produce an elevation map but with bad edges. (Example on the 3rd image right side).
+By using the raster -> subset, we cut out the sides of the image or rather, choose a smaller subset of the data.
+
+![](images/pte1.PNG) ![](images/pte2.PNG)
+![](images/pte3.PNG)
+
 ___
 
 
