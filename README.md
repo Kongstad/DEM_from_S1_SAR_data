@@ -30,20 +30,20 @@ This tile has a perpendicular baseline of -8m and a temporal baseline of 24 days
 ___
 
 ## 3) SNAP data load and S-1 Tops Split ##
-Moving on to the SNAP Toolbox, where upon loading the two downloaded products in, I will define area of the SAR data to be used by using the S-1 TOPS Split function. Subswatch IW2 is used and with bursts set from 2 to 5. For polarisation VV have been selected. This is done for both files.
+Moving on to the SNAP Toolbox, where upon loading the two downloaded products in, I will select a sub-swath of the SAR data to be used by using the S-1 TOPS Split function. Subswatch IW2 is used and with bursts set from 2 to 5. For polarisation, VV have been selected. This is done for both files.
 
 ![](images/topsplit.PNG)
 ___
 
 ## 4) Apply Orbit Correction ##
 Applying precision orbit correction with Apply-Orbit-File. Sentinel-1 images do not include the data in the product, which is why the orbit file needs to be added.
-This is done for both files
+Orbit data are automatically downloaded by Sentinel-1 Toolbox.
 
 ![](images/orbit1.PNG)  ![](images/orbit2.PNG)
 ___
 
-## 5) Coregistration of images ##
-Using the back geocoding command
+## 5) DEM-assisted Back-Geocoding Coregistration ##
+Using the back geocoding command we select the two images and apply the standard settings as seen below. This produces a single stack file.
 
 ![](images/coreg1.PNG)  ![](images/coreg2.PNG) 
 
