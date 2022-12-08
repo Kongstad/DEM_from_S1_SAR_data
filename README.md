@@ -85,6 +85,7 @@ We now perform three steps.
 3) Snaphu Import - Using the unwrapped data we import to finalize the Snaphu processing
 
 ![](images/snaphu_3_1.PNG) ![](images/snaphu_3_2.PNG)
+___
 
 ## 11) Phase to Elevation ##
 Using the phase to elevation with the below settings produce an elevation map but with bad edges. (Example on the 3rd image right side).
@@ -92,10 +93,16 @@ By using the raster -> subset, we cut out the sides of the image or rather, choo
 
 ![](images/pte1.PNG) ![](images/pte2.PNG)
 ![](images/pte3.PNG)
-
 ___
 
+## 12) Range Doppler Terrain Correction
+Then use the terrain correction to output our final product
+![](images/tc1.PNG) ![](images/tc2.PNG)
+
+![](images/fin1.PNG) 
+
+![](images/fin2.PNG)
 
 
-...) Finished DEM product exported as KMZ file and displayed in Google Earth Pro on top of a Satellite image
+## 13) Export as KMZ file and displayed in Google Earth Pro on top of a Satellite image
 ![alt text](images/DEMinGE.PNG)
