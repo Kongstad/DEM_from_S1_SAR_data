@@ -56,10 +56,38 @@ ___
 The first phase image is now produced and here is a snapshot of it.
 Note the demarcation lines still present
 Coherence image has also been generated and is seen on the right.
+
 ![](images/inf1.PNG) ![](images/coh1.PNG) 
-
-
 ___
+
+## 8) S-1 TOPS Deburst ##
+Then to seamlessly join all bursts in a swath into a single image, we apply the TOPS Deburst operation.
+
+![](images/deburst1.PNG) ![](images/deburst2.PNG)
+___
+
+## 9) Goldstein Phase Filtering ##
+We then add the Goldstein Phase Filtering set with standard parameters and we then notice that the interferometric phase is significantly improved as seen on the right below.
+
+![](images/gst1.PNG) ![](images/gst2.PNG)
+___
+
+## 10) Snaphu Unwrapping ##
+We now perform three steps. 
+1) Snaphu Export as seen below with row and column overlap set to 200 and and statistical cost mode to TOPO.
+
+![](images/snaphu_1_1.PNG) ![](images/snaphu_1_2.PNG)
+
+2) Snaphu Unwrapping - This part uses the exported image file from the step above as input and outputs a new product. This process is very time consuming.
+
+![](images/snaphu_2_1.PNG) ![](images/snaphu_2_2.PNG)
+
+3) Snaphu Import - Using the unwrapped data we import to finalize the Snaphu processing
+
+![](images/snaphu_3_1.PNG) ![](images/snaphu_3_2.PNG)
+___
+
+
 
 ...) Finished DEM product exported as KMZ file and displayed in Google Earth Pro on top of a Satellite image
 ![alt text](images/DEMinGE.PNG)
