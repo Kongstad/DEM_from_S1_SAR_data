@@ -46,7 +46,7 @@ ___
 Using the back geocoding command
 
 ![](images/coreg1.PNG)  ![](images/coreg2.PNG) 
-![](images/coreg3.PNG) 
+
 
 ___
 ...) Finished DEM product exported as KMZ file and displayed in Google Earth Pro on top of a Satellite image
