@@ -106,4 +106,7 @@ Then use the terrain correction to output our final product
 
 
 ## 13) Export as KMZ file and displayed in Google Earth Pro on top of a Satellite image
-![alt text](images/DEMinGE.PNG)
+DEM (Elevation VV)
+![](images/DEMinGE0.PNG)
+DEM (Elevation)
+![](images/DEMinGE.PNG)
