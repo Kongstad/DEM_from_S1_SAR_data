@@ -53,9 +53,9 @@ Adding the Enhanced Spectral Diversity function. Processing parameters are left 
 ___
 
 ## 7) Interferogram formation ##
-The first phase image is now produced and here is a snapshot of it.
-Note the demarcation lines still present
-Coherence image has also been generated and is seen on the right.
+The first phase image is now produced and below is a snapshot of it. This step computes the phase difference map and attempts to eliminate other sources of error such as the curvature of the reference surface. Coherence image has also been generated and is seen on the right.
+Note the demarcation lines still present.
+
 
 ![](images/inf1.PNG) ![](images/coh1.PNG) 
 ___
@@ -67,7 +67,7 @@ Then to seamlessly join all bursts in a swath into a single image, we apply the 
 ___
 
 ## 9) Goldstein Phase Filtering ##
-We then add the Goldstein Phase Filtering set with standard parameters and we then notice that the interferometric phase is significantly improved as seen on the right below.
+We then add the Goldstein Phase Filtering which is a technique that increases the signal-to-noise ratio. We set it with standard parameters and notice that the interferometric phase is significantly improved as seen on the right below.
 
 ![](images/gst1.PNG) ![](images/gst2.PNG)
 ___
@@ -96,7 +96,7 @@ By using the raster -> subset, we cut out the sides of the image or rather, choo
 ___
 
 ## 12) Range Doppler Terrain Correction
-Then use the terrain correction to output our final product
+For the interferogram to be useful, it needs to be projected onto a geographic coordinate system using a reference DEM. 
 
 ![](images/tc1.PNG) ![](images/tc2.PNG)
 
