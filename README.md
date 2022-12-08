@@ -1,6 +1,6 @@
 # Digital Elevation Models from Sentinel-1 SAR data via SNAP Toolbox.
 
-(Repository under construction)
+
 Obtaining DEM's from Sentinel-1 SAR data through SNAP toolbox. This repository does not contain any python code and is rather a demonstration of the retrieval and usage of SAR data to create Digital Elevation Models. It generally covers the overarching steps, but is by no means a step by step guide. 
 
 
