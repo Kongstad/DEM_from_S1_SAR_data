@@ -91,7 +91,7 @@ For more information on this topic see this [document](https://asf.alaska.edu/wp
 ___
 
 ## 11) Phase to Elevation DEM generation ##
-Using the phase to elevation with the below settings produce an elevation map but with bad edges. (Example on the 3rd image right side).
+Using the phase to elevation tool with the below settings, we produce an elevation map but with questionable edges on both sides. (Example on the 3rd image right side).
 By using the raster -> subset, we cut out the sides of the image or rather, choose a smaller subset of the data.
 
 ![](images/pte1.PNG) ![](images/pte2.PNG)
