@@ -97,6 +97,7 @@ ___
 
 ## 12) Range Doppler Terrain Correction
 Then use the terrain correction to output our final product
+
 ![](images/tc1.PNG) ![](images/tc2.PNG)
 
 ![](images/fin1.PNG) 
